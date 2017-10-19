@@ -93,6 +93,8 @@ data-512-a1/
 
 Please reference the Jupyter Notebook,'hcds-a1-data-curation.ipynb', to see step by step instructions of how to perform the analysis.
 
+NOTE: The follow these steps, a user will need to be familiar with the Python programming language.
+
 Steps are broken out as follows:
 
     Step 1: Data Acquisition (API Requests)
