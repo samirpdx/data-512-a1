@@ -68,3 +68,43 @@ pagecount_allviews (int)
 - For view totals, PageCounts uses "count" as its argument for storing views whereas PageViews uses "views".
 
 - In order to create a time series plot, the month and year columns need to be converted to datetime format. One recommendation is creating a new data object for this datetime format.
+
+Directory Structure
+---------------------
+```
+data-512-a1/
+
+  |- final_data/
+     |- en-wikipedia_traffic_200801-201709.csv
+  |- images/
+     |- pageviews_english_wikipedia.png
+  |- raw_data/
+     |- pagecounts_desktop-site_200801-201607
+     |- pagecounts_mobile-site_200801-201607
+     |- pageviews_desktop_201507-201709
+     |- pageviews_mobile-app_201507-201709
+     |- pageviews_mobile-web_201507-201709
+  |- LICENSE     
+  |- README.md
+  |- hcds-a1-data-curation.ipynb
+```
+
+### Reproducibility Steps
+
+Please reference the Jupyter Notebook,'hcds-a1-data-curation.ipynb', to see step by step instructions of how to perform the analysis.
+
+Steps are broken out as follows:
+
+    Step 1: Data Acquisition (API Requests)
+    
+    Step 2: Data Processing
+    
+    Step 3: Analysis
+    
+
+### Attributions
+
+Jonathan Morgan (Professor, DATA 512, Human Centered Data Science, University of Washington) for example source code provided for API data requests.
+    - Specific attributes found in 'hcds-a1-data-curation.ipynb'
+
+Additional instructions provided by [HCDS Fall 2017 - Course Wiki](https://wiki.communitydata.cc/HCDS_(Fall_2017)/Assignments#Weekly_reading_reflections).  CC-BY-SA 3.0
